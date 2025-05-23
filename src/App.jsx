@@ -68,7 +68,7 @@ const App = () => {
         setErrorMessage(`API Error: ${data.Error}`);
       }
     } catch (error) {
-      setErrorMessage("Failed to fetch movies.");
+      setErrorMessage("Failedddd to fetch movies.");
       setMovies([]);
     }
   };
